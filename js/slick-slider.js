@@ -31,7 +31,7 @@ $(".footer-slider").slick({
 $(".urban_lakes_banner").slick({
   infinite: true,
   autoplay: true,
-  speed: 300,
+  speed: 100,
   // fade: true,
   cssEase: "linear",
   arrows: false,
