@@ -384,6 +384,18 @@ footer a:hover {
   z-index: -1;
 }
 
+p {
+  text-align: justify;
+}
+
+.book-online {
+  position: fixed;
+  right: -30px;
+  top: 30%;
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+}
+
 #customer-login {
   background-image: url("../assets/images/login/login_bg.jpg");
   height: 100vh;
@@ -465,7 +477,6 @@ footer a:hover {
   margin-top: 100px;
 }
 #urban_lakes .book-online {
-  background-color: #ffbb00;
   padding: 50px 0;
 }
 #urban_lakes .overview {
@@ -502,7 +513,7 @@ footer a:hover {
   padding: 20px;
 }
 #urban_lakes .amenities ul li {
-  list-style-type: circle;
+  list-style-type: none;
   font-size: 18px;
   font-weight: bold;
 }
@@ -667,76 +678,4 @@ footer a:hover {
 .single-post h3 {
   font-weight: bold;
   color: #736357;
-}
-
-/* chira's css */
-.contact-mod {
-  position: fixed;
-  transform: rotate(-450deg);
-  top: 50%;
-  right: -49px;
-  z-index: 1000;
-}
-.contact-mod-1 {
-  position: fixed;
-  transform: rotate(-450deg);
-  top: 50%;
-  right: -82px;
-  z-index: 1000;
-}
-.contact-mod-1 a{
-  width: 200px;
-  height: 40px;
-}
-.btn-1 {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-.btn-brown {
-  color: #f8b417;
-  background-color: #736357;
-  border-color: #736357;
-  border-radius: 3px;
-  box-shadow: 0 2px 0 0 #5c4f45;
-  transition: 0.1s background-color linear;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  display: inline-block;
-  /* padding: 0.6em 0; */
-  width: 105px;
-  height: 60px;
-  border-width: 0;
-  outline: none;
-  font-size: 16px;
-}
-.btn-1 a{
-  width: 100%;
-}
-.btn-brown:hover {
-  background: #7c6a5e;
-  color: #f8b417;
-  text-decoration: none;
-}
-.btn.focus, .btn:focus, .btn:hover {
-  color: #333;
-  text-decoration: none;
 }
