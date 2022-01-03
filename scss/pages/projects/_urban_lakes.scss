@@ -3,7 +3,7 @@
     margin-top: 100px;
   }
   .book-online {
-    background-color: #ffbb00;
+    // background-color: #ffbb00;
     padding: 50px 0;
   }
   .overview {
@@ -41,7 +41,7 @@
     ul {
       padding: 20px;
       li {
-        list-style-type: circle;
+        list-style-type: none; //chira's edit
         font-size: 18px;
         font-weight: bold;
       }
